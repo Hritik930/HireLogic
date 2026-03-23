@@ -1,0 +1,5 @@
+{
+  "/(root)/dashboard/page": "app/(root)/dashboard/page.js",
+  "/(root)/my-resume/[id]/edit/page": "app/(root)/my-resume/[id]/edit/page.js",
+  "/(auth)/page": "app/(auth)/page.js"
+}
