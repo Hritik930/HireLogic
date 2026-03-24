@@ -1,5 +1,5 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 const isProtectedRoute = createRouteMatcher(["/dashboard", "/my-resume/:resumeId/edit"]);
 const publishableKey =
@@ -18,7 +18,10 @@ const clerkHandler = clerkMiddleware(
   }
 );
 
-export default function middleware(request: Request, event: Parameters<typeof clerkHandler>[1]) {
+export default function middleware(
+  request: NextRequest,
+  event: Parameters<typeof clerkHandler>[1]
+) {
   if (!publishableKey || !secretKey) {
     return NextResponse.next();
   }
