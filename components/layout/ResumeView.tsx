@@ -1,6 +1,5 @@
 "use client";
 
-import Header from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import { FormProvider, useFormContext } from "@/lib/context/FormProvider";
 import { RWebShare } from "react-web-share";
@@ -28,7 +27,6 @@ const FinalResumeView = ({
     <PageWrapper>
       <FormProvider params={params}>
         <div id="no-print">
-          <Header />
           <div className="my-10 mx-6 rounded-2xl border border-white/60 bg-white/70 px-6 py-7 text-center shadow-xl backdrop-blur-md dark:border-slate-700 dark:bg-slate-900/60 md:mx-20 lg:mx-36">
             {isOwnerView ? (
               <>

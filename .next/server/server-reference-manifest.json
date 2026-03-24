@@ -3,128 +3,130 @@
     "3b6a03ea07d326d27ba8a7175190af438b50b2bf": {
       "workers": {
         "app/(auth)/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(auth)/page": "action-browser",
         "app/(root)/dashboard/page": "action-browser",
+        "app/_not-found/page": "action-browser",
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
       }
     },
     "12cbeaaf1dc39d4ca10fcb49e2ead16849125606": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "2867c3c8d7bdce8cbd5798aea415351157c8ea03": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "9298bb638978538e4d02acada92168992dbef806": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "a00aab1170f55eda075c3db3899e24b6734d70dd": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "bd3411304ff8e668158d4e0977dab96915decf80": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "c4597f6e01ec152711a492406996449ecf322c5f": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "c56b6a8ce2bf1aee790f135a4f5b99aaecdff9cd": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "cc204106aa735052c5a8210849b69f0d85762169": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "d1f308058b74af0f170ff9567cf3b0b71f3cfd5f": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "ee99404ba3b4893c3f5d4efdd7c440b3e11de45e": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "f524f9a5e152862791e57caa336e6a8ee1583368": {
       "workers": {
-        "app/(root)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(root)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!",
         "app/(root)/my-resume/[id]/edit/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cresume.actions.ts%22%2C%5B%22checkResumeOwnership%22%2C%22addExperienceToResume%22%2C%22addCertificateToResume%22%2C%22addSkillToResume%22%2C%22deleteResume%22%2C%22createResume%22%2C%22addAchievementToResume%22%2C%22addEducationToResume%22%2C%22fetchResume%22%2C%22fetchUserResumes%22%2C%22updateResume%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(root)/dashboard/page": "action-browser",
+        "app/(root)/dashboard/page": "rsc",
         "app/(root)/my-resume/[id]/edit/page": "rsc"
       }
     },
     "08ec61685ca8d896b476687c153799b8cc0e92af": {
       "workers": {
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
@@ -132,7 +134,7 @@
     },
     "2f8143605b1f5ca8b48759e0d9f167c0f40b5549": {
       "workers": {
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
@@ -140,7 +142,7 @@
     },
     "bbbdbaa120d5e0929b6aa06cf202ad6446cdf8ae": {
       "workers": {
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
@@ -148,7 +150,7 @@
     },
     "ed080a823c26152a6a157c7c21efd61a115c4c0f": {
       "workers": {
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
@@ -156,7 +158,7 @@
     },
     "f6b6b826392cf4651907d14bc1694337f5ca622b": {
       "workers": {
-        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%5D&__client_imported__=true!"
+        "app/(root)/my-resume/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CHireLogic%5C%5Clib%5C%5Cactions%5C%5Cgemini.actions.ts%22%2C%5B%22generateExperienceDescription%22%2C%22generateSummary%22%2C%22generateAchievementDescription%22%2C%22generateCertificateDescription%22%2C%22generateEducationDescription%22%5D%5D%2C%5B%22D%3A%5C%5CHireLogic%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/(root)/my-resume/[id]/edit/page": "action-browser"
@@ -164,5 +166,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "yqcdOFpwaE5QE1GXMHcSbnYE52w/GEa1INBQACp/4kI="
+  "encryptionKey": "VapsDsWZJ//e7BA+1rnNz/ZuiejhonOj1KbH/UM9+8c="
 }

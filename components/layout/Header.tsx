@@ -1,13 +1,12 @@
-"use client";
-
-import { UserButton, useUser } from "@clerk/nextjs";
+import { UserButton } from "@clerk/nextjs";
+import { currentUser } from "@clerk/nextjs/server";
 import Link from "next/link";
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
 
-const Header = () => {
-  const user = useUser();
-  const displayName = user.user?.firstName || user.user?.fullName || "Profile";
+const Header = async () => {
+  const user = await currentUser();
+  const displayName = user?.firstName || user?.fullName || "Profile";
 
   return (
     <header className="sticky top-0 z-50 px-4 pt-4">
@@ -20,7 +19,7 @@ const Header = () => {
           </Link>
           <div className="flex items-center gap-2 lg:order-2">
             <ThemeToggle />
-            {user?.isLoaded && !user?.isSignedIn ? (
+            {!user ? (
               <Link
                 href="/sign-in"
                 className="font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-1 text-slate-700 transition duration-300 hover:bg-primary-700/10 dark:text-slate-200 dark:hover:bg-primary-700/20"
@@ -41,10 +40,10 @@ const Header = () => {
               </>
             )}
             <Link
-              href={`${!user?.isSignedIn ? "/sign-up" : "/dashboard"}`}
+              href={`${!user ? "/sign-up" : "/dashboard"}`}
               className="rounded-full bg-gradient-to-r from-sky-500 to-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-md transition duration-300 hover:scale-[1.03] hover:from-sky-600 hover:to-indigo-700 lg:px-5 lg:py-2.5"
             >
-              {!user?.isSignedIn ? "Get started" : "Dashboard"}
+              {!user ? "Get started" : "Dashboard"}
             </Link>
           </div>
         </div>

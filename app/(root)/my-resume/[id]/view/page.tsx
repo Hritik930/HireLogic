@@ -1,4 +1,5 @@
 import FinalResumeView from "@/components/layout/ResumeView";
+import Header from "@/components/layout/Header";
 import React from "react";
 import { Metadata } from "next";
 import {
@@ -34,7 +35,12 @@ const MyResume = async ({ params }: { params: { id: string } }) => {
   const user = await currentUser();
   const isResumeOwner = await checkResumeOwnership(user?.id || "", params.id);
 
-  return <FinalResumeView params={params} isOwnerView={isResumeOwner} />;
+  return (
+    <>
+      <Header />
+      <FinalResumeView params={params} isOwnerView={isResumeOwner} />
+    </>
+  );
 };
 
 export default MyResume;

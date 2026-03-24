@@ -17,7 +17,7 @@ const modelCandidates = [
   "gemini-1.5-pro",
 ].filter(Boolean) as string[];
 
-const uniqueModelCandidates = [...new Set(modelCandidates)];
+const uniqueModelCandidates = Array.from(new Set(modelCandidates));
 
 const generationConfig = {
   temperature: 1,

@@ -1,6 +1,5 @@
 "use server";
 
-import { useUser } from "@clerk/nextjs";
 import Education from "../models/education.model";
 import Experience from "../models/experience.model";
 import Resume from "../models/resume.model";

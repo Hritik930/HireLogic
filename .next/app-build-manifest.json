@@ -26,6 +26,11 @@
       "static/chunks/main-app.js",
       "static/css/app/(root)/my-resume/[id]/edit/page.css",
       "static/chunks/app/(root)/my-resume/[id]/edit/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

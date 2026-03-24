@@ -1,13 +1,11 @@
-"use client";
-
 import Header from "@/components/layout/Header";
-import { useUser } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 import { AtomIcon, Edit, Share2 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
 const page = () => {
-  const user = useUser();
+  const { userId } = auth();
 
   return (
     <div className="min-h-screen">
@@ -25,7 +23,7 @@ const page = () => {
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
-              href={`${!user?.isSignedIn ? "/sign-up" : "/dashboard"}`}
+              href={`${!userId ? "/sign-up" : "/dashboard"}`}
               className="relative flex h-11 w-full items-center justify-center rounded-full bg-gradient-to-r from-sky-500 to-indigo-600 px-8 text-white shadow-lg transition duration-300 hover:scale-105 hover:from-sky-600 hover:to-indigo-700 sm:w-max"
             >
               <span className="relative text-base font-semibold">

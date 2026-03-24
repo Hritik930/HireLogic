@@ -25,15 +25,8 @@ import { Loader2, MoreVertical } from "lucide-react";
 import { useRouter } from "next-nprogress-bar";
 import { deleteResume } from "@/lib/actions/resume.actions";
 import { useToast } from "../ui/use-toast";
-import { usePathname } from "next/navigation";
 
-const ResumeCard = ({
-  resume,
-  refreshResumes,
-}: {
-  resume: any;
-  refreshResumes: () => void;
-}) => {
+const ResumeCard = ({ resume }: { resume: any }) => {
   if (!resume) {
     return (
       <div className="relative aspect-[1/1.2] rounded-lg bg-slate-200/30 shadow-lg transition-all hover:scale-105 dark:bg-slate-800/40 skeleton flex flex-col">
@@ -46,7 +39,6 @@ const ResumeCard = ({
   }
 
   const router = useRouter();
-  const pathname = usePathname();
   const myResume = JSON.parse(resume);
   const [openAlert, setOpenAlert] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -55,7 +47,7 @@ const ResumeCard = ({
   const onDelete = async () => {
     setIsLoading(true);
 
-    const result = await deleteResume(myResume.resumeId, pathname);
+    const result = await deleteResume(myResume.resumeId, "/dashboard");
 
     setIsLoading(false);
     setOpenAlert(false);
@@ -66,8 +58,7 @@ const ResumeCard = ({
         description: "Resume deleted successfully.",
         className: "bg-white",
       });
-
-      refreshResumes();
+      router.refresh();
     } else {
       toast({
         title: "Uh Oh! Something went wrong.",
