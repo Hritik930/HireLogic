@@ -17,6 +17,11 @@ const Header = async () => {
               HireLogic
             </span>
           </Link>
+          <Link href="https://ai-resume-analyzer-phi-six.vercel.app/" className="flex items-center">
+            <span className="self-center text-xl font-bold whitespace-nowrap bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-500 bg-clip-text text-transparent">
+              RESUMIND
+            </span>
+          </Link>
           <div className="flex items-center gap-2 lg:order-2">
             <ThemeToggle />
             {!user ? (

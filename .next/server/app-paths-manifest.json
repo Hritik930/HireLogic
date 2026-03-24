@@ -1,6 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/(root)/dashboard/page": "app/(root)/dashboard/page.js",
   "/(root)/my-resume/[id]/edit/page": "app/(root)/my-resume/[id]/edit/page.js",
-  "/(auth)/page": "app/(auth)/page.js"
+  "/(root)/my-resume/[id]/view/page": "app/(root)/my-resume/[id]/view/page.js",
+  "/(root)/dashboard/page": "app/(root)/dashboard/page.js",
+  "/(auth)/page": "app/(auth)/page.js",
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
+  "/(auth)/sign-up/page": "app/(auth)/sign-up/page.js"
 }
